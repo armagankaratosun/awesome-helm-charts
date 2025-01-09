@@ -24,6 +24,7 @@ jobs:
       run: |
         mkdir -p helm-chart-repo/cvat
         cp -R cvat-repo/helm-chart/* helm-chart-repo/cvat/
+        rm -rf helm-chart-repo/cvat/analytics
 
     - name: Set up Helm
       uses: azure/setup-helm@v1
