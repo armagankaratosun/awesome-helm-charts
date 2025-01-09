@@ -3,7 +3,7 @@ entries:
   cvat:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-01-09T14:48:59.400162542Z"
+    created: "2025-01-09T16:00:00.884843153Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -34,11 +34,11 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 18.5.*
     description: A Helm chart for Kubernetes
-    digest: f901a319e77082ef07640f9cf262a7a88f853e4da9b386b0d1b6e02215a326b8
+    digest: 956d2d7e12c6e4af1c84f41bf5dbd6131044a09eed8ef1d99cd737d428edc7fe
     kubeVersion: '>= 1.19.0-0'
     name: cvat
     type: application
     urls:
-    - https://awesome-helm-charts.github.io/cvat/cvat-0.14.0.tgz
+    - https://armagankaratosun.github.io/awesome-helm-charts/cvat/cvat-0.14.0.tgz
     version: 0.14.0
-generated: "2025-01-09T14:48:59.375082289Z"
+generated: "2025-01-09T16:00:00.857450118Z"
