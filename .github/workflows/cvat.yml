@@ -52,7 +52,7 @@ jobs:
     - name: Re-index Helm Repository
       run: |
         cd helm-chart-repo
-        helm repo index . --url https://awesome-helm-charts.github.io/
+        helm repo index . --url https://armagankaratosun.github.io/awesome-helm-charts/
 
     - name: Commit and Push Changes
       run: |
