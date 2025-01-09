@@ -27,7 +27,8 @@ jobs:
         rm -rf helm-chart-repo/cvat/analytics
 
     - name: Set up Helm
-      uses: azure/setup-helm@v1
+      run: |
+        curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash -s -- --version v3.9.0
 
     - name: Add Helm Repositories
       run: |
