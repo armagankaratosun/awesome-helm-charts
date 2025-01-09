@@ -29,6 +29,11 @@ jobs:
     - name: Set up Helm
       uses: azure/setup-helm@v1
 
+    - name: Update Helm dependencies
+      run: |
+        cd helm-chart-repo/cvat
+        helm dependency update
+
     - name: Package CVAT Helm Charts
       run: |
         cd helm-chart-repo/cvat
